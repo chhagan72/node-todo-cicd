@@ -11,6 +11,10 @@
             }
 
         </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </head>
 
     <body>
@@ -32,6 +36,96 @@
                 <input type="submit" value="Add" />
             </p>
         </form>
+        
+        <div class="container my-5 d-flex justify-content-center">
+        <h2>Registration form</h2>
+
+    </div>
+    <div class="container-fluid">
+        <form action="#">
+            <div class="row">
+                <div class="col-md-2 col-5  col-sm-5 d-flex my-3 ">
+                    <label for=""><span class="text-danger   ">*</span>Name : </label>
+                </div>
+                <div class="col-md-10 col-7 col-sm-7 my-3">
+                    <input type="text" name="fname" id="fname" placeholder="Enter your name.." class="form-control">
+                </div>
+
+
+                <div class="col-md-2 col-5 col-sm-5 d-flex my-3">
+                    <label for=""><span class="text-danger ">*</span> Last Name :</label>
+                </div>
+                <div class="col-md-10 col-7 col-sm-7 my-3">
+                    <input type="text" name="lname" id="lname" placeholder="Enter your last name.."
+                        class="form-control">
+                </div>
+
+                <div class="col-md-2 col-5 col-sm-5 d-flex my-3">
+                    <label for=""><span class="text-danger">*</span>Mobile No. :</label>
+                </div>
+                <div class="col-md-10 col-7 col-sm-7 my-3">
+                    <input type="number" name="mnumber" id="mnumber" placeholder="Enter your Mobile number.."
+                        class="form-control">
+                </div>
+
+                <div class="col-md-2 col-5 col-sm-5 d-flex my-3">
+                    <label for=""><span class="text-danger">*</span>Course :</label>
+                </div>
+                <div class="col-md-10 col-7 col-sm-7 my-3">
+                    <select name="" id="" class="form-control">
+                        <option selected>Select Course</option>
+                        <option>full Stack</option>
+                        <option>Software development</option>
+                        <option>Software Testing</option>
+                        <option>Grapic Design</option>
+
+                    </select>
+                </div>
+
+                <div class="col-md-2 col-5 col-sm-5 d-flex my-3">
+                    <label for=""><span class="text-danger">*</span>Gender :</label>
+                </div>
+                <div class="col-md-10 col-7 col-sm-7 my-3">
+                    <input type="radio" name="gender" value="Male" required="">Male &nbsp;
+                    <input type="radio" name="gender" value="Female">Female &nbsp;
+                    <input type="radio" name="gender" value="Others">Others &nbsp;
+                </div>
+                
+                <div class="col-md-2 col-5 col-sm-5 d-flex my-3">
+                    <label for=""><span class="text-danger">*</span>Blood group :</label>
+                </div>
+                <div class="col-md-10 col-7 col-sm-7 my-3">
+                    <input type="text" name="blood" id="blood" placeholder="Enter your blood group.."
+                        class="form-control">
+                </div>
+
+                <div class="col-md-2 col-5 col-sm-5 d-flex my-3">
+                    <label for=""><span class="text-danger">*</span>DOB :</label>
+                </div>
+                <div class="col-md-10 col-7 col-sm-7 my-3">
+                    <input type="date" name="dob" id="dob" placeholder="Enter your Date of birth.."
+                        class="form-control">
+                </div>
+
+                <div class="col-md-2 col-5 col-sm-5 d-flex my-3">
+                    <label for=""><span class="text-danger">*</span>Email :</label>
+                </div>
+                <div class="col-md-10 col-7 col-sm-7 my-3">
+                    <input type="email" name="emailid" id="emailid" placeholder="Enter your email id.."
+                        class="form-control">
+                </div>
+
+                <div class="col-md-2 col-5 col-sm-5 d-flex my-3">
+                    <label for=""><span class="text-danger">*</span>Address :</label>
+                </div>
+                <div class="col-md-10 col-7 col-sm-7 my-3">
+                    <input type="text" name="Add" id="Add" placeholder="Enter your Address.."
+                        class="form-control">
+                </div>
+
+            </div>
+        </form>
+    </div>
     </body>
 
 </html>
